@@ -1,4 +1,4 @@
-![2 dag created](https://github.com/MaryamKhalid0863/MLOPS_A2/assets/159745729/8b980f68-9031-4bfc-a019-5193d7ac45ab)# MLOps Assignment 2: Airflow Automation
+# MLOps Assignment 2: Airflow Automation
 
 ## Introduction
 In this assignment, we focus on implementing an automated data pipeline using Apache Airflow, a platform for programmatically authoring, scheduling, and monitoring workflows. The project integrates advanced practices in MLOps to automate the cycle of data extraction, transformation, and storage, complemented by robust version control mechanisms. This hands-on project helps in understanding and applying practical aspects of MLOps to real-world data workflows, leveraging popular tools and technologies to manage and automate tasks effectively.
