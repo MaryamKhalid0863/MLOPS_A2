@@ -25,3 +25,38 @@ The main goal is to use Apache Airflow to automate:
   Using a virtual environment is crucial to manage dependencies and versions specific to this project without affecting the global Python environment.
   ```bash
   python -m venv venv
+  ```
+ - **Activate the Virtual Environment**:
+  ```bash
+  venv\Scripts\activate
+  ```
+ - **Install Dependencies**:
+  Ensure all required packages are installed by using a requirements file:
+  ```bash
+  pip install -r requirements.txt
+  ```
+### Configuring Apache Airflow
+  - **Airflow Initialization**:
+  Initialize the database used by Airflow to track task instances and workflows:
+
+  ```bash
+  airflow db init
+  ```
+- **Creating the DAG**:
+  Develop a Directed Acyclic Graph (DAG) in Airflow to define the workflow of tasks including extraction, transformation, and loading (ETL).
+
+
+### Data Extraction
+ - **Web Scraping**: Implement Python scripts using requests and BeautifulSoup to scrape data from specified URLs.
+ - **Error Handling**: Implement robust error handling to manage and log issues during the scraping process.
+   
+### Data Transformation
+ - **Cleaning Data**: Use regular expressions and string operations to clean and format the extracted data.
+ - **Transformation Logic**: Detail the specific transformations applied to the data to prepare it for storage.
+   
+### Data Storage and Version Control
+ - **Storing in Google Drive**: Configure and utilize the Google Drive API to store the transformed data files.
+
+### Conclusion
+  Wrap up with a brief summary of what was achieved and any lessons learned during the project implementation. Discuss potential improvements or next steps for the project.
+
